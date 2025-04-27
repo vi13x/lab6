@@ -11,7 +11,7 @@ int isCharQueueFull(CharQueue *q);
 void enqueueChar(CharQueue *q, char c);
 void dequeueChar(CharQueue *q);
 void displayCharQueue(CharQueue *q);
-void task1();
+void  createQueue();
 
 void initCharDeque(CharDeque *dq, int max_size);
 int isCharDequeEmpty(CharDeque *dq);
@@ -19,7 +19,7 @@ int isCharDequeFull(CharDeque *dq);
 int insertLeft(CharDeque *dq, char c);
 int insertRight(CharDeque *dq, char c);
 void displayCharDeque(CharDeque *dq);
-void task2();
+void createDeck();
 
 void initNumQueue(NumQueue *q, int max_size);
 int isNumQueueEmpty(NumQueue *q);
@@ -28,4 +28,4 @@ void enqueueNum(NumQueue *q, double num);
 double dequeueNum(NumQueue *q);
 void displayNumQueue(NumQueue *q);
 void freeNumQueue(NumQueue *q);
-void task3();
+void sumOfNumbers();

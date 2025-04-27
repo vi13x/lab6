@@ -32,9 +32,9 @@ int main() {
         int c;
         while ((c = getchar()) != '\n' && c != EOF);
         switch (choice) {
-            case 1: system("cls"); task1(); break;
-            case 2: system("cls"); task2(); break;
-            case 3: system("cls"); task3(); break;
+            case 1: system("cls"); createQueue(); break;
+            case 2: system("cls"); createDeck(); break;
+            case 3: system("cls"); sumOfNumbers(); break;
             case 0: printf("Выход из программы.\n"); break;
             default: printf("Неверный выбор.\n");
         }

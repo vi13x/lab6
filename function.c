@@ -40,7 +40,7 @@ void displayCharQueue(CharQueue *q) {
     printf("\n");
 }
 
-void task1() {
+void  createQueue() {
     int max_size;
     printf("Введите размер очереди: ");
     if (scanf("%d", &max_size) != 1 || max_size <= 0) {
@@ -126,7 +126,7 @@ void displayCharDeque(CharDeque *dq) {
     printf("\n");
 }
 
-void task2() {
+void createDeck() {
     int max_size;
     int c;
     printf("Введите размер дека: ");
@@ -220,7 +220,7 @@ void freeNumQueue(NumQueue *q) {
     free(q->data);
 }
 
-void task3() {
+void sumOfNumbers() {
     char input[1000];
     printf("Введите строку: ");
     fgets(input, sizeof(input), stdin);
