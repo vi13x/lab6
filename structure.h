@@ -4,7 +4,7 @@ typedef struct {
     int rear;
     int capacity;
 } CharQueue;
-
+djkgrbsu
 typedef struct {
     char *data;
     int front;
