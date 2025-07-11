@@ -9,7 +9,7 @@
 Дата: 20.04.2025
 */
 #include "function.h"
-
+фвцфвфв
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
